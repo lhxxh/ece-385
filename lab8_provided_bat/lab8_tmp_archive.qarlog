@@ -1,0 +1,91 @@
+Quartus Prime Archive log --	U:/ece385/lab8/lab8_provided_bat/lab8_tmp_archive.qarlog
+
+Archive:	U:/ece385/lab8/lab8_provided_bat/lab8_tmp_archive.qar
+Date:		Fri Oct 25 11:51:00 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+U:/ece385/lab8/lab8_provided_bat/Color_Mapper.sv
+U:/ece385/lab8/lab8_provided_bat/HexDriver.sv
+U:/ece385/lab8/lab8_provided_bat/PLLJ_PLLSPE_INFO.txt
+U:/ece385/lab8/lab8_provided_bat/VGA_controller.sv
+U:/ece385/lab8/lab8_provided_bat/ball.sv
+U:/ece385/lab8/lab8_provided_bat/hpi_io_intf.sv
+U:/ece385/lab8/lab8_provided_bat/lab7_usb.qsf
+U:/ece385/lab8/lab8_provided_bat/lab8.qpf
+U:/ece385/lab8/lab8_provided_bat/lab8.qsf
+U:/ece385/lab8/lab8_provided_bat/lab8.sdc
+U:/ece385/lab8/lab8_provided_bat/lab8.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_assignment_defaults.qdf
+U:/ece385/lab8/lab8_provided_bat/lab8_soc.qsys
+U:/ece385/lab8/lab8_provided_bat/lab8_soc.sopcinfo
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/lab8_soc.cmp
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/lab8_soc.debuginfo
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/lab8_soc.qip
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/lab8_soc.regmap
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/lab8_soc.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.sdc
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_avalon_st_pipeline_base.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_merlin_master_agent.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_merlin_master_translator.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_reset_controller.sdc
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_reset_controller.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_reset_synchronizer.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_irq_mapper.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_jtag_uart_0.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_keycode.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_demux.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_demux_001.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_mux.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_cmd_mux_001.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_001.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_002.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_router_003.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_demux.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_demux_001.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_mux.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_mm_interconnect_0_rsp_mux_001.sv
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu.sdc
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_ociram_default_contents.mif
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_rf_ram_a.mif
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_rf_ram_b.mif
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_nios2_gen2_0_cpu_test_bench.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_onchip_memory2_0.hex
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_onchip_memory2_0.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_address.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_cs.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_otg_hpi_data.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_sdram.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_sdram_pll.v
+U:/ece385/lab8/lab8_provided_bat/lab8_soc/synthesis/submodules/lab8_soc_sysid_qsys_0.v
+U:/ece385/lab8/lab8_provided_bat/vga_clk.ppf
+U:/ece385/lab8/lab8_provided_bat/vga_clk.qip
+U:/ece385/lab8/lab8_provided_bat/vga_clk.v
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 74 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Oct 25 11:51:07 2019
+Source archive file:	U:/ece385/lab8/lab8_provided_bat/lab8_tmp_archive.qar
+Archive was extracted into	I:/2019/lab8/AB7/hl4_yinuoy2/
+		 - successfully.

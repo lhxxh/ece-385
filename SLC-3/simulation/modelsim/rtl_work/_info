@@ -1,0 +1,289 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ece385/SLC-3/simulation/modelsim
+vHexDriver
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1570759089
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+I7HX:_6bmC?<37X=MO3`U_1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 HexDriver_sv_unit
+S1
+R0
+w1453928722
+8U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/HexDriver.sv
+FU:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/HexDriver.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1570759089.000000
+!s107 U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018|U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/HexDriver.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018
+Z8 tCvgOpt 0
+n@hex@driver
+vISDU
+R1
+R2
+!i10b 1
+!s100 9F5[nBY=IinaVd@f96mYb3
+IReGR8f>6@6N][AZgF0Hig0
+R3
+!s105 ISDU_sv_unit
+S1
+R0
+w1570757491
+8U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/ISDU.sv
+FU:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/ISDU.sv
+Z9 L0 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/ISDU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018|U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/ISDU.sv|
+!i113 1
+R6
+R7
+R8
+n@i@s@d@u
+vlab6_toplevel
+R1
+Z10 !s110 1570759090
+!i10b 1
+!s100 ;zWeC>9gGO;j^mcO25J^l1
+IcZm8A0cGcAP<DbfBocX1z3
+R3
+!s105 lab6_toplevel_sv_unit
+S1
+R0
+w1570676557
+8U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/lab6_toplevel.sv
+FU:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/lab6_toplevel.sv
+L0 10
+R4
+r1
+!s85 0
+31
+Z11 !s108 1570759090.000000
+!s107 U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/lab6_toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018|U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/lab6_toplevel.sv|
+!i113 1
+R6
+R7
+R8
+vMem2IO
+R1
+R2
+!i10b 1
+!s100 d<=A`]_5?F8Tz<i9:]04<3
+IJ99@4fc7m]A3Xia^k7]aO0
+R3
+!s105 Mem2IO_sv_unit
+S1
+R0
+Z12 w1506377992
+8U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/Mem2IO.sv
+FU:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/Mem2IO.sv
+Z13 L0 16
+R4
+r1
+!s85 0
+31
+R5
+!s107 U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/Mem2IO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018|U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/Mem2IO.sv|
+!i113 1
+R6
+R7
+R8
+n@mem2@i@o
+Xmemory_contents_sv_unit
+R1
+Z14 DXx4 work 6 SLC3_2 0 22 fmQUMWcPHnj7A`oGJa1>F2
+V_eWA^332hL_<T5Sl[^zL`0
+r1
+!s85 0
+31
+!i10b 1
+!s100 c2m7WKcaV<L[XVf`30RGj3
+I_eWA^332hL_<T5Sl[^zL`0
+!i103 1
+S1
+R0
+Z15 w1570677110
+Z16 8U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/memory_contents.sv
+Z17 FU:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/memory_contents.sv
+L0 14
+R4
+R11
+Z18 !s107 U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/memory_contents.sv|
+Z19 !s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018|U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/memory_contents.sv|
+!i113 1
+R6
+R7
+R8
+vmemory_parser
+R1
+R14
+DXx4 work 23 memory_contents_sv_unit 0 22 _eWA^332hL_<T5Sl[^zL`0
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 fkD8oHBOLR1R3Lz>hd7>Y3
+IUo>lno[^ab<cmH9nk]]>31
+!s105 memory_contents_sv_unit
+S1
+R0
+R15
+R16
+R17
+R13
+R4
+R11
+R18
+R19
+!i113 1
+R6
+R7
+R8
+vslc3
+R1
+R10
+!i10b 1
+!s100 Wz7JOzO9FE`l6mRYRVdlC3
+IIf^9k004hgCSDC>MY;7jl1
+R3
+!s105 slc3_sv_unit
+S1
+R0
+w1570758975
+8U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv
+FU:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018|U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv|
+!i113 1
+R6
+R7
+R8
+XSLC3_2
+R1
+R2
+!i10b 1
+!s100 Cz8_^@QRefP31?j=Zf>lj0
+IfmQUMWcPHnj7A`oGJa1>F2
+VfmQUMWcPHnj7A`oGJa1>F2
+S1
+R0
+R12
+8U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/SLC3_2.sv
+FU:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/SLC3_2.sv
+L0 24
+R4
+r1
+!s85 0
+31
+Z20 !s108 1570759088.000000
+!s107 U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/SLC3_2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018|U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/SLC3_2.sv|
+!i113 1
+R6
+R7
+R8
+n@s@l@c3_2
+vtest_memory
+R1
+Z21 !s110 1570759088
+!i10b 1
+!s100 AZAU7PQT4]][EEHo>57W43
+I[8FY=a7?EI7Xl6H^5@z903
+R3
+!s105 test_memory_sv_unit
+S1
+R0
+w1508438916
+8U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/test_memory.sv
+FU:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/test_memory.sv
+L0 22
+R4
+r1
+!s85 0
+31
+R20
+!s107 U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/test_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018|U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/test_memory.sv|
+!i113 1
+R6
+R7
+R8
+vtestbench
+R1
+R10
+!i10b 1
+!s100 3JEkQnUHoj50^=JcJHDd:2
+IiF;JFENlKZ3nJUj3L^5lF1
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1570740321
+8U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/testbench.sv
+FU:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/testbench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R11
+!s107 U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018|U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/testbench.sv|
+!i113 1
+R6
+R7
+R8
+vtristate
+R1
+R21
+!i10b 1
+!s100 Akazoo=71mOgoH<gVR_UC0
+IkV1O_QK0OLe96XOJXPFZN0
+R3
+!s105 tristate_sv_unit
+S1
+R0
+R12
+8U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/tristate.sv
+FU:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/tristate.sv
+R13
+R4
+r1
+!s85 0
+31
+R20
+!s107 U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/tristate.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018|U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/tristate.sv|
+!i113 1
+R6
+R7
+R8

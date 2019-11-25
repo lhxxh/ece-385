@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at slc3.sv(99): always construct contains both blocking and non-blocking assignments File: U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv Line: 99

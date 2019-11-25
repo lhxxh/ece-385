@@ -1,0 +1,73 @@
+Quartus Prime Archive log --	U:/ece385/lab7/lab7_tmp_archive.qarlog
+
+Archive:	U:/ece385/lab7/lab7_tmp_archive.qar
+Date:		Fri Oct 18 11:32:25 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+U:/ece385/lab7/lab7.qpf
+U:/ece385/lab7/lab7.qsf
+U:/ece385/lab7/lab7.sdc
+U:/ece385/lab7/lab7.sv
+U:/ece385/lab7/lab7_soc.qsys
+U:/ece385/lab7/lab7_soc.sopcinfo
+U:/ece385/lab7/lab7_soc/lab7_soc.cmp
+U:/ece385/lab7/lab7_soc/synthesis/lab7_soc.debuginfo
+U:/ece385/lab7/lab7_soc/synthesis/lab7_soc.qip
+U:/ece385/lab7/lab7_soc/synthesis/lab7_soc.regmap
+U:/ece385/lab7/lab7_soc/synthesis/lab7_soc.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.sdc
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_avalon_st_pipeline_base.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_agent.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_merlin_master_translator.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_reset_controller.sdc
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_reset_controller.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_reset_synchronizer.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_button.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_irq_mapper.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_led.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_demux.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_cmd_mux.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_router_002.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_demux.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_mm_interconnect_0_rsp_mux.sv
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.sdc
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_ociram_default_contents.mif
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_rf_ram_a.mif
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_rf_ram_b.mif
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu_test_bench.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_onchip_memory2_0.hex
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_onchip_memory2_0.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_sdram_pll.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_sw.v
+U:/ece385/lab7/lab7_soc/synthesis/submodules/lab7_soc_sysid_qsys_0.v
+U:/ece385/lab7/lab7t.sdc
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 56 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Oct 18 11:32:31 2019
+Source archive file:	U:/ece385/lab7/lab7_tmp_archive.qar
+Archive was extracted into	J:/ece385_AB7/Xinbo_AB7_lab7/hl4_yinuoy2/
+		 - successfully.

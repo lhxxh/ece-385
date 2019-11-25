@@ -1,0 +1,85 @@
+
+State Machine - |lab9_top|lab9_soc:lab9_qsystem|lab9_soc_sdram:sdram|m_next
+Name m_next.010000000 m_next.000010000 m_next.000001000 m_next.000000001 
+m_next.000000001 0 0 0 0 
+m_next.000001000 0 0 1 1 
+m_next.000010000 0 1 0 1 
+m_next.010000000 1 0 0 1 
+
+State Machine - |lab9_top|lab9_soc:lab9_qsystem|lab9_soc_sdram:sdram|m_state
+Name m_state.100000000 m_state.010000000 m_state.001000000 m_state.000100000 m_state.000010000 m_state.000001000 m_state.000000100 m_state.000000010 m_state.000000001 
+m_state.000000001 0 0 0 0 0 0 0 0 0 
+m_state.000000010 0 0 0 0 0 0 0 1 1 
+m_state.000000100 0 0 0 0 0 0 1 0 1 
+m_state.000001000 0 0 0 0 0 1 0 0 1 
+m_state.000010000 0 0 0 0 1 0 0 0 1 
+m_state.000100000 0 0 0 1 0 0 0 0 1 
+m_state.001000000 0 0 1 0 0 0 0 0 1 
+m_state.010000000 0 1 0 0 0 0 0 0 1 
+m_state.100000000 1 0 0 0 0 0 0 0 1 
+
+State Machine - |lab9_top|lab9_soc:lab9_qsystem|lab9_soc_sdram:sdram|i_next
+Name i_next.111 i_next.101 i_next.010 i_next.000 
+i_next.000 0 0 0 0 
+i_next.010 0 0 1 1 
+i_next.101 0 1 0 1 
+i_next.111 1 0 0 1 
+
+State Machine - |lab9_top|lab9_soc:lab9_qsystem|lab9_soc_sdram:sdram|i_state
+Name i_state.111 i_state.101 i_state.011 i_state.010 i_state.001 i_state.000 
+i_state.000 0 0 0 0 0 0 
+i_state.001 0 0 0 0 1 1 
+i_state.010 0 0 0 1 0 1 
+i_state.011 0 0 1 0 0 1 
+i_state.101 0 1 0 0 0 1 
+i_state.111 1 0 0 0 0 1 
+
+State Machine - |lab9_top|lab9_soc:lab9_qsystem|lab9_soc_nios2_gen2_0:nios2_gen2_0|lab9_soc_nios2_gen2_0_cpu:cpu|lab9_soc_nios2_gen2_0_cpu_nios2_oci:the_lab9_soc_nios2_gen2_0_cpu_nios2_oci|lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper:the_lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper|lab9_soc_nios2_gen2_0_cpu_debug_slave_tck:the_lab9_soc_nios2_gen2_0_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
+
+State Machine - |lab9_top|lab9_soc:lab9_qsystem|avalon_aes_interface:aes_decryption_core_0|AES:aes_core|counter
+Name counter.0000 counter.1010 counter.1001 counter.1000 counter.0111 counter.0110 counter.0101 counter.0100 counter.0011 counter.0010 counter.0001 counter.1011 
+counter.1011 0 0 0 0 0 0 0 0 0 0 0 0 
+counter.0001 0 0 0 0 0 0 0 0 0 0 1 1 
+counter.0010 0 0 0 0 0 0 0 0 0 1 0 1 
+counter.0011 0 0 0 0 0 0 0 0 1 0 0 1 
+counter.0100 0 0 0 0 0 0 0 1 0 0 0 1 
+counter.0101 0 0 0 0 0 0 1 0 0 0 0 1 
+counter.0110 0 0 0 0 0 1 0 0 0 0 0 1 
+counter.0111 0 0 0 0 1 0 0 0 0 0 0 1 
+counter.1000 0 0 0 1 0 0 0 0 0 0 0 1 
+counter.1001 0 0 1 0 0 0 0 0 0 0 0 1 
+counter.1010 0 1 0 0 0 0 0 0 0 0 0 1 
+counter.0000 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |lab9_top|lab9_soc:lab9_qsystem|avalon_aes_interface:aes_decryption_core_0|AES:aes_core|add_round_key_type
+Name add_round_key_type.11 add_round_key_type.10 add_round_key_type.01 add_round_key_type.00 
+add_round_key_type.00 0 0 0 0 
+add_round_key_type.01 0 0 1 1 
+add_round_key_type.10 0 1 0 1 
+add_round_key_type.11 1 0 0 1 
+
+State Machine - |lab9_top|lab9_soc:lab9_qsystem|avalon_aes_interface:aes_decryption_core_0|AES:aes_core|current_state
+Name current_state.Decrement_Counter_Signal current_state.Finish current_state.Inv_Mix_Columns current_state.Inv_Subbytes current_state.Inv_Shift_Rows current_state.Judge_Add_Round_Key_Path current_state.Check_Counter current_state.Add_Round_Key current_state.Key_Schedule_Check_five current_state.Key_Schedule_Check_four current_state.Key_Schedule_Check_three current_state.Key_Schedule_Check_two current_state.Key_Schedule_Check_one current_state.Key_Schedule_Check current_state.Load_Enc current_state.Wait 
+current_state.Wait 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.Load_Enc 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.Key_Schedule_Check 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.Key_Schedule_Check_one 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.Key_Schedule_Check_two 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.Key_Schedule_Check_three 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.Key_Schedule_Check_four 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.Key_Schedule_Check_five 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.Add_Round_Key 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.Check_Counter 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.Judge_Add_Round_Key_Path 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.Inv_Shift_Rows 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Inv_Subbytes 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Inv_Mix_Columns 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Finish 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.Decrement_Counter_Signal 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,32 @@
+Quartus Prime Archive log --	U:/ece385/SLC-3/lab_6_tmp_archive.qarlog
+
+Archive:	U:/ece385/SLC-3/lab_6_tmp_archive.qar
+Date:		Fri Oct 11 11:25:44 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/HexDriver.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/ISDU.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/Mem2IO.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/Register.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/SLC3_2.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/lab6_toplevel.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/memory_contents.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/test_memory.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/testbench.sv
+U:/ece385/SLC-3/Updated_ECE385_lab6_provided_Spring_2018/tristate.sv
+U:/ece385/SLC-3/lab_6.qpf
+U:/ece385/SLC-3/lab_6.qsf
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 15 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Oct 11 11:25:46 2019
+Source archive file:	U:/ece385/SLC-3/lab_6_tmp_archive.qar
+Archive was extracted into	I:/2019/Lab6/AB7/hl4_yinuoy2/
+		 - successfully.

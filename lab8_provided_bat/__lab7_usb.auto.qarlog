@@ -1,0 +1,39 @@
+Quartus Prime Archive log --	U:/ece385/lab8/lab8_provided_bat/__lab7_usb.auto.qarlog
+
+Archive:	U:/ece385/lab8/lab8_provided_bat/__lab7_usb.auto.qar
+Date:		Fri Oct 25 11:50:59 2019
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+Color_Mapper.sv
+HexDriver.sv
+PLLJ_PLLSPE_INFO.txt
+U:/ece385/lab8/lab8_provided_bat/db/a_dpfifo_l011.tdf
+U:/ece385/lab8/lab8_provided_bat/db/a_fefifo_7cf.tdf
+U:/ece385/lab8/lab8_provided_bat/db/altsyncram_6mc1.tdf
+U:/ece385/lab8/lab8_provided_bat/db/altsyncram_ac71.tdf
+U:/ece385/lab8/lab8_provided_bat/db/altsyncram_nio1.tdf
+U:/ece385/lab8/lab8_provided_bat/db/altsyncram_sqg1.tdf
+U:/ece385/lab8/lab8_provided_bat/db/cntr_1ob.tdf
+U:/ece385/lab8/lab8_provided_bat/db/cntr_do7.tdf
+U:/ece385/lab8/lab8_provided_bat/db/lab8.cbx.xml
+U:/ece385/lab8/lab8_provided_bat/db/lab8.qpf
+U:/ece385/lab8/lab8_provided_bat/db/mult_p5t.tdf
+U:/ece385/lab8/lab8_provided_bat/db/scfifo_jr21.tdf
+U:/ece385/lab8/lab8_provided_bat/db/vga_clk_altpll.v
+VGA_controller.sv
+ball.sv
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+hpi_io_intf.sv
+lab7_usb.qsf
+lab8.sdc
+lab8.sv
+lab8_assignment_defaults.qdf
+lab8_soc.qsys
+vga_clk.ppf
+vga_clk.qip
+vga_clk.v
+	======= Total: 28 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

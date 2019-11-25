@@ -1,0 +1,1738 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ece385/lab9/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1573242663
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+I5aTH9QDA<DE7gmk^>d[DB1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1573201896
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1573242663.000000
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z7 o-vlog01compat -work lab9_soc
+Z8 !s92 -vlog01compat -work lab9_soc +incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules
+Z9 tCvgOpt 0
+valtera_avalon_st_clock_crosser
+Z10 !s110 1573242671
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+IUh`JMMeWcOQ1Rz_ESTge_3
+R2
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+L0 22
+R5
+r1
+!s85 0
+31
+Z11 !s108 1573242671.000000
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_handshake_clock_crosser
+R10
+!i10b 1
+!s100 3f<J9K;e[9FU@JKn0^PK?0
+IdmSPVz3jHPNmeJL@H3^V32
+R2
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z12 L0 24
+R5
+r1
+!s85 0
+31
+R11
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!i113 1
+R7
+R8
+R9
+valtera_merlin_arb_adder
+Z13 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z14 !s110 1573242672
+!i10b 1
+!s100 1Jn[a;@5nZmTN?DFKQNzj2
+IHmFhcKkUAS:?:TZKz>65O1
+R2
+Z15 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R0
+R3
+Z16 8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Z17 FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R5
+r1
+!s85 0
+31
+Z18 !s108 1573242672.000000
+Z19 !s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+Z21 o-sv -work lab9_soc
+Z22 !s92 -sv -work lab9_soc +incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules
+R9
+valtera_merlin_arbitrator
+R13
+R14
+!i10b 1
+!s100 NQTehjm2fNQROUMUzShGa1
+IV=ii@ZIz0^X?nG[5H_<5[3
+R2
+R15
+S1
+R0
+R3
+R16
+R17
+L0 103
+R5
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R21
+R22
+R9
+valtera_merlin_burst_uncompressor
+R13
+Z23 !s110 1573242675
+!i10b 1
+!s100 f1?Rb<=9U?R9LJoHl;7>T3
+IH]<5oAnCYQBJ5Ce^Wl>OR0
+R2
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R5
+r1
+!s85 0
+31
+Z24 !s108 1573242675.000000
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R21
+R22
+R9
+valtera_merlin_master_agent
+R13
+R23
+!i10b 1
+!s100 _CJm:YX=>U2LQKH;8=@cb0
+IXTgCQ3K1]F=kRA:3=N=1_1
+R2
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R0
+Z25 w1573201895
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv
+L0 28
+R5
+r1
+!s85 0
+31
+R24
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R21
+R22
+R9
+valtera_merlin_master_translator
+R13
+R23
+!i10b 1
+!s100 NdRk@]3fC2C@V7Rm;dQM31
+If0L5BEdzS[PGkY4kYR>L^0
+R2
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R0
+R25
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv
+L0 32
+R5
+r1
+!s85 0
+31
+R24
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R21
+R22
+R9
+valtera_merlin_slave_agent
+R13
+Z26 !s110 1573242674
+!i10b 1
+!s100 ePZN1d?B062J`OBb?blff3
+IIF4[<mlSD`UV]Ec9z?E7b0
+R2
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+Z27 L0 34
+R5
+r1
+!s85 0
+31
+Z28 !s108 1573242674.000000
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R21
+R22
+R9
+valtera_merlin_slave_translator
+R13
+R23
+!i10b 1
+!s100 k`9[YAn_dLTkg;GE`mOb61
+IX8FUWOJ@l^nF:GZjecdmB2
+R2
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R0
+R25
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+L0 35
+R5
+r1
+!s85 0
+31
+R24
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R21
+R22
+R9
+valtera_reset_controller
+Z29 !s110 1573242662
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+ID=;f=86<HaSc`jAB@6EYH1
+R2
+R0
+Z30 w1573201892
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_reset_controller.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+Z31 !s108 1573242661.000000
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_synchronizer
+R29
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+IHR1gi:Ga`VQ[J1AXKV;>Z1
+R2
+R0
+R30
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v
+R12
+R5
+r1
+!s85 0
+31
+Z32 !s108 1573242662.000000
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R7
+R8
+R9
+valtera_std_synchronizer_nocut
+R10
+!i10b 1
+!s100 b8zV2<79GgkNg0GC<P[GJ2
+IBDh3d=j>Ac8hZ<=4_1o<j2
+R2
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+L0 44
+R5
+r1
+!s85 0
+31
+R11
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!i113 1
+R7
+R8
+R9
+vavalon_aes_interface
+R13
+!s110 1573242678
+!i10b 1
+!s100 Tg4;mWDQVVYkXlUTiHh6<3
+I0cTR`ofWTHWe;@QFggEZa1
+R2
+!s105 avalon_aes_interface_sv_unit
+S1
+R0
+Z33 w1573201885
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv
+R4
+R5
+r1
+!s85 0
+31
+R24
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc
+!s110 1573242661
+!i10b 1
+!s100 ll5[MhlFi[G9;R?3:PG3G1
+I=S5>`7`T7b2aB^E0f7Uh90
+R2
+R0
+R33
+8U:/ece385/lab9/lab9_soc/synthesis/lab9_soc.v
+FU:/ece385/lab9/lab9_soc/synthesis/lab9_soc.v
+L0 6
+R5
+r1
+!s85 0
+31
+R31
+!s107 U:/ece385/lab9/lab9_soc/synthesis/lab9_soc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis|U:/ece385/lab9/lab9_soc/synthesis/lab9_soc.v|
+!i113 1
+R7
+!s92 -vlog01compat -work lab9_soc +incdir+U:/ece385/lab9/lab9_soc/synthesis
+R9
+vlab9_soc_irq_mapper
+R13
+!s110 1573242670
+!i10b 1
+!s100 bTSY=ijiQlUTF>h6DWDFm3
+IQmIUd`@z^Q3KkYff8DMN:1
+R2
+!s105 lab9_soc_irq_mapper_sv_unit
+S1
+R0
+R30
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv
+L0 31
+R5
+r1
+!s85 0
+31
+Z34 !s108 1573242670.000000
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_jtag_uart_0
+Z35 !s110 1573242668
+!i10b 1
+!s100 ezVSi?KNgjj1inz:5?g7f0
+IaQ_jgk5685`kCOj0YCOhf0
+R2
+R0
+Z36 w1573201886
+Z37 8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v
+Z38 FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v
+L0 331
+R5
+r1
+!s85 0
+31
+Z39 !s108 1573242667.000000
+Z40 !s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v|
+Z41 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_jtag_uart_0_scfifo_r
+R35
+!i10b 1
+!s100 BmB_Tf;OzaPCM2h4gJ8zT0
+IYOJJW@nXK1h>BGZPV7zzg3
+R2
+R0
+R36
+R37
+R38
+L0 243
+R5
+r1
+!s85 0
+31
+R39
+R40
+R41
+!i113 1
+R7
+R8
+R9
+vlab9_soc_jtag_uart_0_scfifo_w
+R35
+!i10b 1
+!s100 idS<A>ZjX@Zh76M3e`X`02
+IgnVW;>NfFFRXSziWHIi4i0
+R2
+R0
+R36
+R37
+R38
+L0 78
+R5
+r1
+!s85 0
+31
+R39
+R40
+R41
+!i113 1
+R7
+R8
+R9
+vlab9_soc_jtag_uart_0_sim_scfifo_r
+R35
+!i10b 1
+!s100 o@J@FUBEXW8W<b@oHU2KY2
+IzDkTkJ9eIT1Dd4^94];TL1
+R2
+R0
+R36
+R37
+R38
+L0 164
+R5
+r1
+!s85 0
+31
+R39
+R40
+R41
+!i113 1
+R7
+R8
+R9
+vlab9_soc_jtag_uart_0_sim_scfifo_w
+R35
+!i10b 1
+!s100 aSUg]mzQ?HEQQ:4m=9K8?3
+IZC`aU9k^?joAHL_[J>j_i0
+R2
+R0
+R36
+R37
+R38
+R4
+R5
+r1
+!s85 0
+31
+R39
+R40
+R41
+!i113 1
+R7
+R8
+R9
+vlab9_soc_mm_interconnect_0
+R29
+!i10b 1
+!s100 D8?1^8T@mo09n]W4Yd5^Y1
+IhBb3b6GV@QmB_8YP_NdIh2
+R2
+R0
+R30
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R32
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_mm_interconnect_0_avalon_st_adapter
+R1
+!i10b 1
+!s100 i6:YS24AmzoP9amOA4RVA0
+I8:If8ME]Pe3hnZLEj70DK0
+R2
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+R32
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R13
+R10
+!i10b 1
+!s100 PLS>hHl5EjHIHCQdcMhT^2
+IXnL>I=@bI`aPdU7YC7=9e1
+R2
+!s105 lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+L0 66
+R5
+r1
+!s85 0
+31
+R34
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_cmd_demux
+R13
+Z42 !s110 1573242673
+!i10b 1
+!s100 XK7WXc`^QG3YoKX0E0_7:3
+Ii]8J[J`[PSWcZ72`Ma[6A3
+R2
+!s105 lab9_soc_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv
+Z43 L0 43
+R5
+r1
+!s85 0
+31
+Z44 !s108 1573242673.000000
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_cmd_demux_001
+R13
+R42
+!i10b 1
+!s100 [Sh2e>OLcD41V3_>4510m2
+I?OzfWD1RCV?UUMlG:^RJj1
+R2
+!s105 lab9_soc_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv
+R43
+R5
+r1
+!s85 0
+31
+R44
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_cmd_mux
+R13
+R42
+!i10b 1
+!s100 QQ11@[<5WDBhbL_=9:;@J0
+IeViPac?az@gH<UfY<LX?23
+R2
+!s105 lab9_soc_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv
+Z45 L0 51
+R5
+r1
+!s85 0
+31
+R44
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_cmd_mux_002
+R13
+R42
+!i10b 1
+!s100 c9dhb6<aT8@6GhB3@FkTa0
+IS;9bm=zY_RoJ>hUlI_cmS2
+R2
+!s105 lab9_soc_mm_interconnect_0_cmd_mux_002_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv
+R45
+R5
+r1
+!s85 0
+31
+R44
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_router
+R13
+R26
+!i10b 1
+!s100 doFP8jZSHYho9oB;NWX7I2
+I7@Hb9Zc=ch`jRhg9bSKM:1
+R2
+Z46 !s105 lab9_soc_mm_interconnect_0_router_sv_unit
+S1
+R0
+R3
+Z47 8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv
+Z48 FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv
+Z49 L0 84
+R5
+r1
+!s85 0
+31
+R28
+Z50 !s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv|
+Z51 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_router_001
+R13
+R26
+!i10b 1
+!s100 K^X<1NjRjO0ZofFjWOFnD2
+IgZc_WF@Nc:IJR;a<KIZn:3
+R2
+Z52 !s105 lab9_soc_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+R3
+Z53 8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv
+Z54 FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv
+R49
+R5
+r1
+!s85 0
+31
+R28
+Z55 !s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv|
+Z56 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_router_001_default_decode
+R13
+R26
+!i10b 1
+!s100 7M;UVo@eO=Sm`_MFC0G>S2
+I`[J3m9U`lMTjozzTO7I3A3
+R2
+R52
+S1
+R0
+R3
+R53
+R54
+Z57 L0 45
+R5
+r1
+!s85 0
+31
+R28
+R55
+R56
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_router_002
+R13
+R26
+!i10b 1
+!s100 iGJaHaIQOPJIiadWP<KIj3
+Ifz=2izC<^]UTCh=N]n[=i1
+R2
+Z58 !s105 lab9_soc_mm_interconnect_0_router_002_sv_unit
+S1
+R0
+R3
+Z59 8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv
+Z60 FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv
+R49
+R5
+r1
+!s85 0
+31
+R28
+Z61 !s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv|
+Z62 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_router_002_default_decode
+R13
+R26
+!i10b 1
+!s100 GD221TS7[iTcZ9XBHA=R53
+I1PBU1DY]XaCZ9IH1G>O>o0
+R2
+R58
+S1
+R0
+R3
+R59
+R60
+R57
+R5
+r1
+!s85 0
+31
+R28
+R61
+R62
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_router_004
+R13
+R26
+!i10b 1
+!s100 Oi[`ojRIF=3@]bCGG1obj1
+IXIbR1`BHe3T0h8cCEbP=m2
+R2
+Z63 !s105 lab9_soc_mm_interconnect_0_router_004_sv_unit
+S1
+R0
+R3
+Z64 8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv
+Z65 FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv
+R49
+R5
+r1
+!s85 0
+31
+R44
+Z66 !s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv|
+Z67 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_router_004_default_decode
+R13
+R26
+!i10b 1
+!s100 W`ah4mhH_c[HCgYYV7ZTl0
+I7g3Q`fcDiii`AD=a[CK?53
+R2
+R63
+S1
+R0
+R3
+R64
+R65
+R57
+R5
+r1
+!s85 0
+31
+R44
+R66
+R67
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_router_default_decode
+R13
+R26
+!i10b 1
+!s100 >F2VHYhDF:_I1ZLP^EMHK1
+IHm@3hS61F?h4fV[HcD?LK1
+R2
+R46
+S1
+R0
+R3
+R47
+R48
+R57
+R5
+r1
+!s85 0
+31
+R28
+R50
+R51
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_rsp_demux
+R13
+R14
+!i10b 1
+!s100 fEbO93O`81zC3Yo]H>61@1
+IjklEMn@=Rkc^0jU<K823F1
+R2
+!s105 lab9_soc_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv
+R43
+R5
+r1
+!s85 0
+31
+R18
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_rsp_demux_002
+R13
+R14
+!i10b 1
+!s100 ]K<L[4GMTgnPZRUN0`c482
+IzL5zAJ4ZY7@1ocDi1O1<=0
+R2
+!s105 lab9_soc_mm_interconnect_0_rsp_demux_002_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv
+R43
+R5
+r1
+!s85 0
+31
+R18
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_rsp_mux
+R13
+R14
+!i10b 1
+!s100 QZT5X:<m@fMi`VMGYB4hm2
+IRzCeQCP5ooz9O6VmT^`V63
+R2
+!s105 lab9_soc_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv
+R45
+R5
+r1
+!s85 0
+31
+R18
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_mm_interconnect_0_rsp_mux_001
+R13
+R10
+!i10b 1
+!s100 d2A?eT2gL3kGNMz3Ab:T50
+IfW8UV1FZT8Rfd]M0gNmlP0
+R2
+!s105 lab9_soc_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R0
+R3
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv
+R45
+R5
+r1
+!s85 0
+31
+R11
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv|
+!i113 1
+R21
+R22
+R9
+vlab9_soc_nios2_gen2_0
+Z68 !s110 1573242666
+!i10b 1
+!s100 a=JRPj]lJFWbfh3Jn46EA2
+I?cHUk?@e3`aIGTnh3KloA3
+R2
+R0
+R36
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z69 !s108 1573242666.000000
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu
+R68
+!i10b 1
+!s100 ;oDDZ;Jh:K:E1IQL6HcFl3
+IY<hkCK?RmhT<7BQUj4@6Q1
+R2
+R0
+R25
+Z70 8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v
+Z71 FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v
+L0 2834
+R5
+r1
+!s85 0
+31
+R69
+Z72 !s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v|
+Z73 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk
+R68
+!i10b 1
+!s100 F?a^4aDdWkSNQQ4m6>n]23
+I]UOIjNX53Iih5SZA<=cYa0
+R2
+R0
+R25
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+R4
+R5
+r1
+!s85 0
+31
+R69
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_debug_slave_tck
+Z74 !s110 1573242667
+!i10b 1
+!s100 J@8E3Gd:>kc0DZFNVSTd[1
+IZF>494Xm]Kc_j>[<h@9BI3
+R2
+R0
+R25
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+R4
+R5
+r1
+!s85 0
+31
+R39
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper
+R74
+!i10b 1
+!s100 P4:n3_Wo9MUIoT8bLG7oW1
+ITI^iV75O]6gG46zSdS8B22
+R2
+R0
+R25
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+R39
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_avalon_reg
+R68
+!i10b 1
+!s100 JM<2^QNEIQd^EW6bE6U>o1
+IKGBdHj`_^FXW8CTfz[g7=1
+R2
+R0
+R25
+R70
+R71
+L0 2023
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci
+R68
+!i10b 1
+!s100 O4AE8?9S7TM[V?^0U>?oA2
+Ib9dT@^LBD4eEjYcZkX3E00
+R2
+R0
+R25
+R70
+R71
+L0 2362
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_break
+R68
+!i10b 1
+!s100 _c5_Sfied^UT4c>Bc9KUQ0
+I6D1D[WQL=L4DTaHfU2>i?2
+R2
+R0
+R25
+R70
+R71
+L0 295
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R68
+!i10b 1
+!s100 GCiJjBoKhF`PEfP]48Pbi2
+ICWhf0L=TcXmALfndLBTD62
+R2
+R0
+R25
+R70
+R71
+L0 1265
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_dbrk
+R68
+!i10b 1
+!s100 Za`HeD^XUIRJJ<]>O=e=33
+I?>FiJOVB;[8@>Sg?>GfFQ2
+R2
+R0
+R25
+R70
+R71
+L0 795
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_debug
+R68
+!i10b 1
+!s100 [9LE1d?>m[oCSh3=fGcnI3
+IgjfDdL`=cY=UI@9[EjJ4T0
+R2
+R0
+R25
+R70
+R71
+L0 153
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_dtrace
+R68
+!i10b 1
+!s100 hQo<O;3EY_N=Q6fa32dez2
+IJAi6SC9QX8V@SVcNAV<Jb3
+R2
+R0
+R25
+R70
+R71
+L0 1183
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_fifo
+R68
+!i10b 1
+!s100 TPz1]D_KXAIIV4:6bl?KO1
+IF;khEZjUTWUoLIzA5l^W53
+R2
+R0
+R25
+R70
+R71
+L0 1427
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R68
+!i10b 1
+!s100 6DDhhHF_LR72]gH^2gQK42
+I:W9nmU4<MeZQVQP0<_6JX0
+R2
+R0
+R25
+R70
+R71
+L0 1380
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R68
+!i10b 1
+!s100 EIIbamXlR>nLZ_1Uz<mdH0
+IU^UR`>nV_UZC29V2[1dX?2
+R2
+R0
+R25
+R70
+R71
+L0 1337
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_im
+R68
+!i10b 1
+!s100 _0P[@NIo?PU45O1<o_Td90
+IYe@oB;HjlN5_bMOa_IKLF3
+R2
+R0
+R25
+R70
+R71
+L0 1936
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_itrace
+R68
+!i10b 1
+!s100 ?W9QzFim^^mfU;1n_52Zd0
+Ie00h7cJGebZ1I1eO]?3L31
+R2
+R0
+R25
+R70
+R71
+L0 982
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_pib
+R68
+!i10b 1
+!s100 k1KLN`f^z45@OEaPQPX]31
+Ih<LmW9CdV:>Y=<kL?V5lW2
+R2
+R0
+R25
+R70
+R71
+L0 1913
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_td_mode
+R68
+!i10b 1
+!s100 6LXVg6<S4CN?EgQc`JN8o0
+IEl]9eD`^S7>jd?akiI6=03
+R2
+R0
+R25
+R70
+R71
+L0 1115
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_oci_xbrk
+R68
+!i10b 1
+!s100 `]4Cezo=HKC924d3nziJi3
+IT4SH9cTV1VURj:0mUA@cF3
+R2
+R0
+R25
+R70
+R71
+L0 588
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_ocimem
+R68
+!i10b 1
+!s100 ZMjjoE?@?4mKLFnMVhXU`3
+I^7[mgV<AO<3R]ec54c?[e3
+R2
+R0
+R25
+R70
+R71
+L0 2181
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_nios2_performance_monitors
+R68
+!i10b 1
+!s100 Hj:?W__l`QjDg5zQ;=MLz0
+IKgV[EPmU_AZh;ZJO`<7B[1
+R2
+R0
+R25
+R70
+R71
+L0 2006
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_ociram_sp_ram_module
+R68
+!i10b 1
+!s100 g1<?cGeg^M^_K7<mHM<^41
+IePOEza9QR>Z@5hEA[V7Id1
+R2
+R0
+R25
+R70
+R71
+L0 2116
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_register_bank_a_module
+R68
+!i10b 1
+!s100 [a=]FPb@FJR6finW8aT8Q1
+Im]nZl9KQ^nQDzlWkKKk8c1
+R2
+R0
+R25
+R70
+R71
+R4
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_register_bank_b_module
+R68
+!i10b 1
+!s100 lT;Gi7KNIMAF?aWTZO4l31
+IhcYQB]>k^l]K<i`L<53>^2
+R2
+R0
+R25
+R70
+R71
+L0 87
+R5
+r1
+!s85 0
+31
+R69
+R72
+R73
+!i113 1
+R7
+R8
+R9
+vlab9_soc_nios2_gen2_0_cpu_test_bench
+R74
+!i10b 1
+!s100 ahGEG2ne;2m:ao^<]B_9A2
+IBO7JmJQB9WH1Y=P<P6lGG2
+R2
+R0
+R25
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+R39
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_onchip_memory2_0
+!s110 1573242665
+!i10b 1
+!s100 mc[fAEEk9LZ^Xf9]mXACf1
+IGeAk@hEjK^T0[@ZHVW6do3
+R2
+R0
+R36
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v
+R4
+R5
+r1
+!s85 0
+31
+Z75 !s108 1573242664.000000
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram
+Z76 !s110 1573242664
+!i10b 1
+!s100 Y@>Cfe<8do53[4FH^?3BW3
+IQjCgodJ2TG[`FfRHSR7QV3
+R2
+R0
+Z77 w1573201887
+Z78 8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram.v
+Z79 FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram.v
+L0 159
+R5
+r1
+!s85 0
+31
+R75
+Z80 !s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram.v|
+Z81 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram_input_efifo_module
+R76
+!i10b 1
+!s100 k?[^OK7A=fF4]Ld2aRBc42
+INVNNNcj`mOANaUgNCgz7X0
+R2
+R0
+R77
+R78
+R79
+R4
+R5
+r1
+!s85 0
+31
+R75
+R80
+R81
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram_pll
+R76
+!i10b 1
+!s100 OX<QgUFJ;@QiM=50_P5TA3
+I_YQM8dFWWX5X^PLTTIG??2
+R2
+R0
+Z82 w1573201888
+Z83 8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v
+Z84 FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v
+L0 217
+R5
+r1
+!s85 0
+31
+R75
+Z85 !s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v|
+Z86 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram_pll_altpll_gpa2
+R76
+!i10b 1
+!s100 Z3VIaTGglKadATU4G?BK72
+Im2`h^CCb1XzURS6M^1aJQ2
+R2
+R0
+R82
+R83
+R84
+L0 130
+R5
+r1
+!s85 0
+31
+R75
+R85
+R86
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram_pll_dffpipe_l2c
+R76
+!i10b 1
+!s100 jh6FXUEYoRk6>Bed0M[O31
+I2;Bd;B:IR]Tb9ReiLQ]Tm0
+R2
+R0
+R82
+R83
+R84
+L0 37
+R5
+r1
+!s85 0
+31
+R75
+R85
+R86
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram_pll_stdsync_sv6
+R76
+!i10b 1
+!s100 Boa55hDb@o6_bBM8zGEKK1
+I?<GSlBO?4JfIE^N92OZC:1
+R2
+R0
+R82
+R83
+R84
+L0 98
+R5
+r1
+!s85 0
+31
+R75
+R85
+R86
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sysid_qsys_0
+R76
+!i10b 1
+!s100 1H]b3c8?hDOgIBKPcJ3j^0
+IJn1kjOc@SGEb7HX=cEVf:3
+R2
+R0
+R82
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v
+R27
+R5
+r1
+!s85 0
+31
+R75
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_timer_0
+R76
+!i10b 1
+!s100 0PKk>>HdfIGbI=]36LD6P0
+IH5]Td5AoNzgdg1POYDzn>2
+R2
+R0
+R82
+8U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v
+FU:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+U:/ece385/lab9/lab9_soc/synthesis/submodules|U:/ece385/lab9/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v|
+!i113 1
+R7
+R8
+R9

@@ -1,0 +1,207 @@
+/************************************************************************
+AES Decryption Core Logic
+
+Dong Kai Wang, Fall 2017
+
+For use with ECE 385 Experiment 9
+University of Illinois ECE Department
+************************************************************************/
+
+module AES (
+	input	 logic CLK,
+	input  logic RESET,
+	input  logic AES_START,
+	output logic AES_DONE,
+	input  logic [127:0] AES_KEY,
+	input  logic [127:0] AES_MSG_ENC,
+	output logic [127:0] AES_MSG_DEC
+);
+
+enum logic [2:0] {Wait, Add_Round_Key, Inv_Shift_Rows, Inv_Subbytes, Inv_Mix_Columns, Finish} current_state, next_state;
+logic [3:0] counter;
+logic reset_counter, reset_state, add_round_key_signal, inv_shift_rows_signal, inv_subbytes_signal, inv_mix_columns, decrement_counter_signal, done_signal; 
+logic [1:0] set_add_round_key_type, add_round_key_type;
+logic [1407:0] key_schedule;
+logic [127:0] state, inv_shift_rows_result, inv_mix_columns_result, subbytes_result;
+
+always_ff @ (posedge CLK) begin
+
+	if(RESET == 1) begin
+
+		current_state <= Wait;
+
+	end
+
+	else begin
+
+		current_state <= next_state;
+
+	end
+
+end
+
+
+always_comb begin
+
+	next_state = current_state;
+	reset_counter = 1'b0;
+	reset_state = 1'b0;
+	set_add_round_key_type = set_add_round_key_type;
+	add_round_key_signal = 1'b0;
+	inv_shift_rows_signal = 1'b0;
+	inv_subbytes_signal = 1'b0;
+	inv_mix_columns = 1'b0;
+	decrement_counter_signal = 1'b0;
+	done_signal = 1'b0;
+	
+	unique case(current_state) 
+	
+		Wait: begin
+			reset_counter = 1'b1;
+			reset_state = 1'b1;
+			set_add_round_key_type = 2'b00; 
+			
+			
+			if (AES_START == 1'b1)
+				next_state = Add_Round_Key;
+				
+			else 
+				next_state = Wait;
+			
+			end
+			
+		Add_Round_Key: begin
+			add_round_key_signal = 1'b1;
+			
+			if(add_round_key_type == 2'b00) 
+				next_state = Inv_Shift_Rows;
+			
+			else if(add_round_key_type == 2'b01) 
+				next_state = Inv_Mix_Columns;		
+			
+			else 
+				next_state = Finish;
+				
+			end
+			
+		Inv_Shift_Rows: begin
+			inv_shift_rows_signal = 1'b1;
+			
+			next_state = Inv_Subbytes;
+			
+			end
+			
+		Inv_Subbytes: begin
+			inv_subbytes_signal = 1'b1;
+			
+			if (counter != 3'b000)
+				set_add_round_key_type = 2'b10;
+			else
+				set_add_round_key_type = 2'b01;
+				
+			next_state = Add_Round_Key;
+			
+			end
+			
+		Inv_Mix_Columns: begin
+			inv_mix_columns = 1'b1;
+			
+			if (counter != 3'b000) 
+				decrement_counter_signal = 1'b1;
+			
+			else
+				decrement_counter_signal = 1'b0;
+				
+			next_state = Inv_Shift_Rows;			
+			
+			end
+			
+		Finish: begin
+			done_signal = 1'b1;
+			
+			if (AES_START == 1'b1) 
+				next_state = Finish;
+				
+			else
+				next_state = Wait;
+			
+			end
+			
+	endcase
+
+end
+
+KeyExpansion key_expansion(.clk(CLK), .Cipherkey(AES_KEY), .KeySchedule(key_schedule));   // AES_KEY cannot be changed during AES decrypt
+InvMixColumns invmixcolumns(.in(state), .out(inv_mix_columns_result));
+InvShiftRows invshiftrows(.data_in(state), .data_out(inv_shift_rows_result));
+SubBytes subbytes(.clk(CLK), .in(state), .out(subbytes_result));
+
+always_comb begin 
+	
+if(reset_counter == 1'b1)
+	counter = 4'b1000;
+else if(decrement_counter_signal == 1'b1)
+	counter = counter-1;
+else
+	counter = counter;	
+
+if(set_add_round_key_type == 2'b00)
+	add_round_key_type = 2'b00;
+else if(set_add_round_key_type == 2'b01)
+	add_round_key_type = 2'b01;
+else if(set_add_round_key_type == 2'b10)
+	add_round_key_type = 2'b10;
+else
+	add_round_key_type = 2'b11;
+
+if(reset_state == 1'b1)                                    
+	state = AES_MSG_ENC;
+else if(add_round_key_signal == 1'b1) begin
+	if(add_round_key_type == 2'b00)
+		state = key_schedule[127:0] ^ state; 
+	else if(add_round_key_signal == 2'b01) begin
+		if(counter == 4'b1000)
+			state = key_schedule[255:128] ^ state;
+		else if(counter == 4'b0111)
+			state = key_schedule[383:256] ^ state;
+		else if(counter == 4'b0110)
+			state = key_schedule[511:384] ^ state;
+		else if(counter == 4'b0101)
+			state = key_schedule[639:512] ^ state;
+		else if(counter == 4'b0100)
+			state = key_schedule[767:640] ^ state;
+		else if(counter == 4'b0011)
+			state = key_schedule[895:768] ^ state;
+		else if(counter == 4'b0010)
+			state = key_schedule[1023:896] ^ state;
+		else if(counter == 4'b0001)
+			state = key_schedule[1151:1024] ^ state;
+		else 
+			state = key_schedule[1279:1152] ^ state;
+		end
+	else if(add_round_key_signal == 2'b10)
+		state = key_schedule[1407:1280] ^ state;
+	else
+		state = state;
+	end
+else if(inv_shift_rows_signal == 1'b1)
+	state = inv_shift_rows_result ;
+else if(inv_subbytes_signal == 1'b1)
+	state = subbytes_result;
+else if(inv_mix_columns == 1'b1)
+	state = inv_mix_columns_result;
+else
+	state = state;
+
+if(done_signal == 1'b1) begin
+	AES_MSG_DEC = state;
+	AES_DONE = 1'b1;
+	end
+else begin
+	AES_MSG_DEC = AES_MSG_DEC;
+	AES_DONE = 1'b0;
+	end
+	
+end
+
+endmodule
